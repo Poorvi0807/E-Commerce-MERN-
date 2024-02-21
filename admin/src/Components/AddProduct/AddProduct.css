@@ -26,3 +26,7 @@ add-product-itemfield input{
     font-size: 14px;
 
 }
+.addproduct-price{
+    display: flex;
+    gap: 40px;
+}
