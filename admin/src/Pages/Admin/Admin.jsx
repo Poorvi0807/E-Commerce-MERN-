@@ -1,14 +1,15 @@
 import React from 'react'
 import './Admin.css';
-import Siderbar from '../../Sidebar/Siderbar';
+// import Sidebar from '../../Sidebar/Sidebar';
 import {Routes,Route} from 'react-router-dom'
 import AddProduct from '../../Components/AddProduct/AddProduct'
 import ListProduct from '../../Components/ListProduct/ListProduct';
+import Sidebar from '../../Components/Sidebar/Sidebar';
 
 const Admin = () => {
   return (
     <div className='admin'>
-      <Siderbar />
+      <Sidebar />
       <Routes >
         <Route path='/addproduct' element={<AddProduct />} />
         <Route path='/listproduct' element={<ListProduct />} />
