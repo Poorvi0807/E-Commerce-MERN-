@@ -33,7 +33,9 @@
         cursor: pointer;
         margin: auto;
 }
-
+.list-product-allproducts{
+    overflow-y: auto;
+}
 @media(max-width:800px){
     .list-product{
         box-sizing: border-box;
